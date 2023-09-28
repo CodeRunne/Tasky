@@ -1,0 +1,27 @@
+{
+	"contracts": {
+		"Todo": "cadence/contracts/Todo.cdc"
+	},
+	"networks": {
+		"emulator": "127.0.0.1:3569",
+		"mainnet": "access.mainnet.nodes.onflow.org:9000",
+		"testnet": "access.devnet.nodes.onflow.org:9000"
+	},
+	"accounts": {
+		"default": {
+			"address": "01cf0e2f2f715450",
+			"key": "94b56e35b2712e134bf78a991a4271cc312e183aec57b33525a5355e1e69e924"
+		},
+		"emulator-account": {
+			"address": "f8d6e0586b0a20c7",
+			"key": "94b56e35b2712e134bf78a991a4271cc312e183aec57b33525a5355e1e69e924"
+		}
+	},
+	"deployments": {
+		"emulator": {
+			"default": [
+				"Todo"
+			]
+		}
+	}
+}
